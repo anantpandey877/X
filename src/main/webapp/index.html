@@ -11,48 +11,74 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=SN+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
     <link href="css/style.css" rel="stylesheet">
 </head>
-<body class="bg-dirty-blue bg-fixed min-h-screen">
+<body class="bg-algae-green bg-fixed min-h-screen">
     <div class="relative w-full h-full">
-        <nav>
+        <!-- navigation bar -->
+        <nav class="bg-light-gray">
             <div class="relative w-[1080px] flex justify-between items-center mx-auto">
                 <a href="#" class="font-displaypara font-bold text-2xl py-7 pr-7">Project<img src="./assets/images/black-x-png-27.png" alt="" class="inline" height="40px" width="40px">
                 </a>
                 <ul class="flex relative space-x-8 ">
-                    <li class="font-displaypara text-[20px] font-bold py-4 relative hover:text-dirty-accent-hover
-                    transition-all duration-200 group cursor-pointer ">
+                    <li class="relative inline-block mt-1.5">
+                    <button class="bg-light-gray text-[20px] font-bold font-displaypara leading-none mt-1.5 pb-2.5 border-2 border-cyan-600 rounded-md px-1.5 pb-1 pt-1 hover:bg-cyan-600 hover:text-white
+                    transition-all duration-200">Sign-in</button>
+                    </li>
+
+                    <li class="relative inline-block mt-1.5">
+                    <button class="bg-light-gray text-[20px] font-bold font-displaypara leading-none mt-1.5 pb-2.5 border-2 border-gray-700 rounded-md px-1.5 pb-1 pt-1 hover:bg-gray-700 hover:text-white
+                    transition-all duration-200">Sign-up</button>
+                    </li>
+
+                    <li  class="font-displaypara text-[20px] font-bold py-4 relative inline-block hover:text-algae-green
+                    transition-all duration-200 group cursor-pointer hover:scale-105">
                     <a href="">Features</a>
-                    <div class="absolute bottom-0 h-1 w-full bg-dirty-accent-hover hidden group-hover:block
+                    <div class="absolute bottom-0 h-1 w-full bg-algae-green hidden group-hover:block
                     transition-all duration-200"></div>
                     </li>
-                    <li  class="font-displaypara text-[20px] font-bold py-4 relative hover:text-dirty-accent-hover
-                    transition-all duration-200 group cursor-pointer ">
-                    <a href="">About us</a>
-                    <div class="absolute bottom-0 h-1 w-full bg-dirty-accent-hover hidden group-hover:block
+
+                    <li  class="font-displaypara text-[20px] font-bold py-4 relative inline-block hover:text-algae-green
+                    transition-all duration-200 group cursor-pointer hover:scale-105">
+                    <a href="">About Us</a>
+                    <div class="absolute bottom-0 h-1 w-full bg-algae-green hidden group-hover:block
                     transition-all duration-200"></div>
                     </li>
-                    <li  class="font-displaypara text-[20px] font-bold py-4 relative hover:text-dirty-accent-hover
-                    transition-all duration-200 group cursor-pointer ">
-                    <a href="">log-in</a>
-                    <div class="absolute bottom-0 h-1 w-full bg-dirty-accent-hover hidden group-hover:block
-                    transition-all duration-200"></div>
-                    </li>
-                    <li  class="font-displaypara text-[20px] font-bold py-4 relative hover:text-dirty-accent-hover
-                    transition-all duration-200 group cursor-pointer ">
-                    <a href="">Sing-up</a>
-                    <div class="absolute bottom-0 h-1 w-full bg-dirty-accent-hover hidden group-hover:block
-                    transition-all duration-200"></div>
-                    </li>
-                    <li  class="font-displaypara text-[20px] font-bold py-4 relative hover:text-dirty-accent-hover
-                    transition-all duration-200 group cursor-pointer ">
+
+                    <li  class="font-displaypara text-[20px] font-bold py-4 relative inline-block hover:text-algae-green
+                    transition-all duration-200 group cursor-pointer hover:scale-105">
                     <a href="">contact-us</a>
-                    <div class="absolute bottom-0 h-1 w-full bg-dirty-accent-hover hidden group-hover:block
+                    <div class="absolute bottom-0 h-1 w-full bg-algae-green hidden group-hover:block
                     transition-all duration-200"></div>
                     </li>
                 </ul>
             </div>
         </nav>
+
+        <!-- hero section -->
+        <section class="w-[1080px] mx-auto mt-10">
+            <div class="w-full flex-col">
+                <button class="bg-white border text-[16px] font-bold font-displaypara px-7 py-1.5 rounded-3xl text-cyan-600">100% Free Forever</button>
+                <h1 class="mt-4 font-displayhead text-white text-[48px]">Achieve  Your  Goals</h1>
+                <h1 class="font-displayhead text-gray-700 text-[56px] leading-none">Together</h1>
+                <p class="mt-4 font-displaypara text-[18px] text-white font-bold">Track your daily goals, share your schedule with friends, and</p>
+                <p class="font-displaypara text-[18px] text-white font-bold">create a competitive enviroment that keeps everyone</p>
+                <p class="font-displaypara text-[18px] text-white font-bold">motivated and consistent. No credit card required. No hidden fees.</p>
+                <p class="font-displaypara text-[24px] inline-block mt-4 text-black font-bold">Hardwork, Discipline and Consistency it's all matters.</p>
+                <div class="mt-9 w-[524px] flex justify-between">
+                    <button class="bg-white border-2 border-black text-[16px] font-bold font-displaypara px-9 py-2 rounded-2xl
+                    text-cyan-600 hover:bg-gray-300 hover:text-black hover:scale-105 transition-all duration-200">Get Started</button>
+                    <button class="bg-white border-2 border-black text-[16px] font-bold font-displaypara px-9 py-2 rounded-2xl 
+                   text-cyan-600 hover:bg-gray-300 hover:text-black hover:scale-105 transition-all duration-200">Known More</button>
+                </div>
+                
+            
+            </div>
+        </section>
     </div>
 </body>
 </html>
