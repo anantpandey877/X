@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body class="bg-algae-green bg-fixed min-h-screen">
@@ -61,7 +62,9 @@
 
         <!-- hero section -->
         <section class="w-[1080px] mx-auto mt-10">
-            <div class="w-full flex-col">
+            <div class="flex">
+                <!-- left-side div -->
+                <div class="w-full flex-col">
                 <button class="bg-white border text-[16px] font-bold font-displaypara px-7 py-1.5 rounded-3xl text-cyan-600">100% Free Forever</button>
                 <h1 class="mt-4 font-displayhead text-white text-[48px]">Achieve  Your  Goals</h1>
                 <h1 class="font-displayhead text-gray-700 text-[56px] leading-none">Together</h1>
@@ -69,15 +72,47 @@
                 <p class="font-displaypara text-[18px] text-white font-bold">create a competitive enviroment that keeps everyone</p>
                 <p class="font-displaypara text-[18px] text-white font-bold">motivated and consistent. No credit card required. No hidden fees.</p>
                 <p class="font-displaypara text-[24px] inline-block mt-4 text-black font-bold">Hardwork, Discipline and Consistency it's all matters.</p>
-                <div class="mt-9 w-[524px] flex justify-between">
-                    <button class="bg-white border-2 border-black text-[16px] font-bold font-displaypara px-9 py-2 rounded-2xl
-                    text-cyan-600 hover:bg-gray-300 hover:text-black hover:scale-105 transition-all duration-200">Get Started</button>
-                    <button class="bg-white border-2 border-black text-[16px] font-bold font-displaypara px-9 py-2 rounded-2xl 
-                   text-cyan-600 hover:bg-gray-300 hover:text-black hover:scale-105 transition-all duration-200">Known More</button>
+                    <div class="mt-9 w-[524px] flex justify-between">
+                        <button class="bg-white border-2 border-black text-[16px] font-bold font-displaypara px-9 py-2 rounded-2xl
+                        text-cyan-600 hover:bg-gray-300 hover:text-black hover:scale-105 transition-all duration-200">Get Started</button>
+                        <button class="bg-white border-2 border-black text-[16px] font-bold font-displaypara px-9 py-2 rounded-2xl 
+                        text-cyan-600 hover:bg-gray-300 hover:text-black hover:scale-105 transition-all duration-200">Known More</button>
+                    </div>
                 </div>
                 
-            
+                <!-- right- side div -->
+                <div class="w-[500px] h-80 bg-white mt-12 border-2 rounded-3xl border-gray-700">
+                    <div class="m-8">
+                        <div class="flex items-center gap-4">
+                            <i class="fa-solid fa-circle-user text-6xl"></i>
+                            <div>
+                                <h1 class="text-2xl font-bold">John Doe</h1>
+                                <div  class="flex items-center gap-2 mt-1">
+                                    <i class="fa-solid fa-fire text-orange-500"></i>
+                                    <p class="text-gray-600">5 day streak</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex mt-8 items-center gap-9 hover:scale-105 transition-all duration-200">                 
+                            <div class="flex items-center gap-5 ml-1">
+                            <i class="fa-jelly-fill fa-regular fa-circle-check text-2xl"></i>
+                            <p class="line-through">Morning Workout</p>
+                            </div>
+                            <span class="">6:00 A.M.</span>
+                        </div>
+
+                        <div class="flex mt-4 items-center gap-14 hover:scale-105 transition-all duration-200">                 
+                            <div class="flex items-center gap-5 ml-1">
+                            <i class="fa-jelly-fill fa-regular fa-circle-check text-2xl"></i>
+                            <p class="line-through">Read 30 pages</p>
+                            </div>
+                            <span class="">6:00 A.M.</span>
+                        </div>
+                    </div>
+                </div>
             </div>
+
         </section>
     </div>
 </body>
