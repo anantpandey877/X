@@ -19,5 +19,9 @@
   --color-white-frost: rgb(252, 251, 252);
   --color-ghost-white: rgb(248,248,255);
   --color-mediumgray: rgb(100 116 139);
+  --color-amazon-green: rgb(59, 122, 87);
+  --color-academy-blue: rgb(0, 79, 152);
+  --color-bright-torqouise: rgb(8, 232, 222);
   --color-white: rgb(255 255 255 / 0.95);
+  --color-dark-sapahire: rgb(8, 37, 103);
 }
